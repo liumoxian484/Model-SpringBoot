@@ -1,0 +1,62 @@
+
+spring:
+  application:
+    name: cdp-health
+  #数据库配置  start
+  datasource:
+    druid:
+      type: com.alibaba.druid.pool.DruidDataSource
+      url: jdbc:mysql://localhost:3306/cdpshop?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true
+      username: root
+      password: root
+      driver-class-name: com.mysql.jdbc.Driver
+      # 初始化配置
+      initial-size: 3
+      # 最小连接数
+      min-idle: 3
+      # 最大连接数
+      max-active: 15
+      # 获取连接超时时间
+      max-wait: 5000
+      break-after-acquire-failure: true
+      connection-error-retry-attempts: 3
+      # 连接有效性检测时间
+      time-between-eviction-runs-millis: 90000
+      # 最大空闲时间
+      min-evictable-idle-time-millis: 1800000
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      validation-query: select 1
+      # 配置监控统计拦截的filters
+      filters: stat
+      stat-view-servlet:
+        url-pattern: /druid/*
+        reset-enable: false
+        login-username: admin
+        login-password: admin
+        allow: 127.0.0.1
+        enabled: true   #默认值为true，即打开监控页面，但存在泄漏信息的风险，所以修改为false
+      web-stat-filter:
+        url-pattern: /*
+        exclusions: "*.js,*.gif,*.jpg,*.bmp,*.png,*.css,*.ico,/druid/*"
+  #redis 配置
+  redis:
+    host: localhost
+    port: 6379
+    password:
+    database: 10
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: 5s
+        min-idle: 0
+        max-idle: 8
+
+## 文件存储路径
+#file:
+#  path: D:\eshop\file\
+#  avatar: D:\eshop\avatar\
+#  # 文件大小 /M
+#  maxSize: 100
+#  avatarMaxSize: 5

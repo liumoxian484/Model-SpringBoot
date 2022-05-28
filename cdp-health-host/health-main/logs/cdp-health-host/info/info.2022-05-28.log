@@ -1,0 +1,84 @@
+2022-05-28 21:38:52 INFO  main com.cdp.HealthMainApplicationTests Starting HealthMainApplicationTests using Java 1.8.0_282 on LAPTOP-QJ2I8G1P with PID 4120 (started by liumoxian in V:\Java\intel IJ开发\cdp-health-host\health-main)
+2022-05-28 21:38:52 INFO  main com.cdp.HealthMainApplicationTests The following 1 profile is active: "dev"
+2022-05-28 21:38:52 INFO  background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.3.Final
+2022-05-28 21:38:54 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-28 21:38:54 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-28 21:38:54 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2022-05-28 21:38:55 INFO  main com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Init DruidDataSource
+2022-05-28 21:38:56 INFO  main com.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+2022-05-28 21:38:57 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-05-28 21:38:58 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-05-28 21:38:59 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2022-05-28 21:38:59 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2022-05-28 21:38:59 INFO  main com.alibaba.druid.pool.DruidDataSource {dataSource-1} closing ...
+2022-05-28 21:38:59 INFO  main com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2022-05-28 21:38:59 INFO  main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-28 21:43:52 INFO  main com.cdp.HealthMainApplicationTests Starting HealthMainApplicationTests using Java 1.8.0_282 on LAPTOP-QJ2I8G1P with PID 12696 (started by liumoxian in V:\Java\intel IJ开发\cdp-health-host\health-main)
+2022-05-28 21:43:52 INFO  main com.cdp.HealthMainApplicationTests The following 1 profile is active: "dev"
+2022-05-28 21:43:52 INFO  background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.3.Final
+2022-05-28 21:43:54 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-28 21:43:54 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-28 21:43:54 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2022-05-28 21:43:55 INFO  main com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Init DruidDataSource
+2022-05-28 21:43:55 INFO  main com.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+2022-05-28 21:43:57 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-05-28 21:43:57 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-05-28 21:43:59 INFO  main com.alibaba.druid.pool.DruidDataSource {dataSource-1} closing ...
+2022-05-28 21:43:59 INFO  main com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2022-05-28 21:43:59 INFO  main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-28 21:44:34 INFO  main com.cdp.HealthMainApplicationTests Starting HealthMainApplicationTests using Java 1.8.0_282 on LAPTOP-QJ2I8G1P with PID 11240 (started by liumoxian in V:\Java\intel IJ开发\cdp-health-host\health-main)
+2022-05-28 21:44:34 INFO  main com.cdp.HealthMainApplicationTests The following 1 profile is active: "dev"
+2022-05-28 21:44:34 INFO  background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.3.Final
+2022-05-28 21:44:36 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-28 21:44:36 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-28 21:44:36 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2022-05-28 21:44:36 INFO  main com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Init DruidDataSource
+2022-05-28 21:44:37 INFO  main com.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+2022-05-28 21:44:39 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-05-28 21:44:39 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-05-28 21:44:41 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2022-05-28 21:44:41 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2022-05-28 21:44:41 INFO  main com.alibaba.druid.pool.DruidDataSource {dataSource-1} closing ...
+2022-05-28 21:44:41 INFO  main com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2022-05-28 21:44:41 INFO  main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-28 22:00:23 INFO  main com.cdp.HealthMainApplicationTests Starting HealthMainApplicationTests using Java 1.8.0_282 on LAPTOP-QJ2I8G1P with PID 21084 (started by liumoxian in V:\Java\intel IJ开发\cdp-health-host\health-main)
+2022-05-28 22:00:23 INFO  main com.cdp.HealthMainApplicationTests The following profiles are active: dev
+2022-05-28 22:00:23 INFO  background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.1.7.Final
+2022-05-28 22:00:25 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-28 22:00:25 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-28 22:00:25 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2022-05-28 22:00:25 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'redisConfig' of type [com.cdp.common.config.RedisConfig$$EnhancerBySpringCGLIB$$bdbe9fcd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-28 22:00:27 INFO  main com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Init DruidDataSource
+2022-05-28 22:00:27 INFO  main com.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+2022-05-28 22:00:28 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-05-28 22:00:28 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-05-28 22:00:31 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2022-05-28 22:00:31 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2022-05-28 22:00:31 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2022-05-28 22:00:31 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: handleUsingGET_1
+2022-05-28 22:00:31 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: handleUsingDELETE_1
+2022-05-28 22:00:31 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: handleUsingGET_2
+2022-05-28 22:00:31 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: handleUsingGET_3
+2022-05-28 22:00:31 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: handleUsingGET_4
+2022-05-28 22:00:31 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: handleUsingGET_5
+2022-05-28 22:00:31 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: handleUsingGET_6
+2022-05-28 22:00:31 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: handleUsingGET_7
+2022-05-28 22:00:31 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: handleUsingGET_8
+2022-05-28 22:00:31 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: handleUsingGET_9
+2022-05-28 22:00:31 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: handleUsingGET_10
+2022-05-28 22:00:31 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: handleUsingGET_11
+2022-05-28 22:00:31 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: handleUsingGET_12
+2022-05-28 22:00:31 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: handleUsingGET_13
+2022-05-28 22:00:31 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: handleUsingGET_14
+2022-05-28 22:00:31 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: handleUsingGET_15
+2022-05-28 22:00:31 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: handleUsingGET_16
+2022-05-28 22:00:31 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: handleUsingGET_17
+2022-05-28 22:00:32 INFO  main com.cdp.HealthMainApplicationTests Started HealthMainApplicationTests in 9.775 seconds (JVM running for 12.126)
+2022-05-28 22:00:32 INFO  SpringContextShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closing ...
+2022-05-28 22:00:32 INFO  SpringContextShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
